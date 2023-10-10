@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clase de formularios</h1>
+    <form action="resultadoBusqueda.html" method="GET">
+        <div>
+            <input id="inputNombre" type="text" name="nombre" value="" placeholder="Cual es tu nombre?" >
+        </div>
+        <div>
+            <input type="email" name="email" value="" placeholder="Indica tu email">
+        </div>
+        <div>
+            <input type="number" name="edad" value="" placeholder="Cual es tu edad?">
+        </div>
+        <div>
+            <input type="password" name="pass" value="" placeholder="Indica tu clave">
+        </div>
+        <div>
+            <label>Cual es tu comida favorita</label>
+            <div>
+                <input type="radio" name="comida" value="Pizza">
+                <label>Pizza</label>
+            </div>
+            <div>
+                <input type="radio"  name="comida" value="Hamburguesa">
+                <label>Hamburguesa</label>
+            </div>
+        </div>
+        <div>
+            <p>Cual equipo quieres que gane la Champions</p>
+            <div>
+                <input type="checkbox" name="equipo" value="barcelona" >
+                <label>Barcelona</label>
+            </div>
+            <div>
+                <input type="checkbox" name="equipo" value="real madrid" >
+                <label>Real Madrid</label>
+            </div>
+            <div>
+                <input type="checkbox" name="equipo" value="chelsea" >
+                <label>Chelsea</label>
+            </div>
+            <div>
+                <input type="checkbox" name="equipo" value="manchester c" >
+                <label>Manchester City</label>
+            </div>
+        </div>
+        <div>
+            <label>Cuentanos que hiciste el finde</label>
+            <textarea name="descripcion"></textarea>
+        </div>
+        <div>
+            <label>Cual es tu genero favorito</label>
+            <select name="musica" >
+                <option value="rock">Rock</option>
+                <option value="techno">Techno</option>
+                <option value="pop">Pop</option>
+                <option value="reggae">Reggae</option>
+            </select>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

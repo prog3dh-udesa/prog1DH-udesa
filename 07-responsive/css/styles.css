@@ -1,0 +1,38 @@
+body{
+    background-color: green;
+}
+
+h1{
+    color:blue;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.mi-seccion{
+    background-color: burlywood;
+    width: 70%;
+}
+.mi-article{
+    background-color: aqua;
+    /* width: 50%; */
+    width: 90vw;
+    height: 50vh;
+}
+
+@media (min-width:768px){
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        color:red
+    }
+}
+
+@media (min-width:1024px){
+    p{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,61 @@
+Que significa el acronimo CSS? // Cascading Style Sheet
+Cuales son las tres partes que componen una regla de estilo? // Selector, Propiedades y Valores
+Que nombre recibe cada dupla de propieda y valor? // Declaracion
+Que tipo de selectores nos ensenho Javi? //Selector de etiqueta, Selector de Clase, y Selector descendente
+
+
+Propiedades de css a explicar:
+- Color
+- Font Family
+- Font Size
+- Font Style
+- Font Weight
+- Test Align
+- Text Decoration
+- Text Transform
+- Line Height
+
+Para trabajar con tipos externas:
+1. Ir a fonts.google y seleccionar la tipo con la que queremos trabajar
+2. Vincular el link de uso de la tipo en el html
+3. Utilizar la propiedad Font family en las etiquetas que queremos aplicar los estilos
+4. Para cambiar de estilo utilizamos el peso descrito en google fonts usando font-weight en css
+
+Colores en CSS:
+Se pueden utilizar pasando el nombre como un texto, el valor hexadecimal o el uso de los valores en RGB.
+Cuando utilizamos los colores pasando el nombre de los mismo como textos, debemos de sabernos el nombre exacto del color que queremos usar, lo cual hace el trabajo un tanto tedioso y capaz hasta subjetivo, por eso lo mas recomendado es utilizar los colores por codigos, ya sea en Hexadecimal o en RGB. Para cualquiera de los dos casos podemos usar Color Picker en google para poder tener una paleta de colores completa donde podemos seleccionar el color que queremos, y el picker nos hace entrega del valor hexadecimal o RGB a utilizar. Si en algun momento necesitamos trabajar con opacidades (Transparencias en los elementos) debemos utilizar valores RGBA, donde el ultimo canal va a representar el canal alfa y debe ser un decimal que entre el 0 y el 1
+
+
+Fondos en CSS:
+- background-color: Puede utilizar cualquier formato de color
+
+- background-image: Recibe una funcion URL() donde debemos de pasarle una ruta relativa o absoluta de la ubicacion de la imagen
+
+- background-repeat: controla el comportamiento de la imagen, por default viene con el valor repeat, por lo cual cuando aplicamos una imagen de fondo, se ve con la imagen repetida N cantidad de veces. Para evitar este comportamiento podemos usar el valor no-repeat, o si queremos manipularlo para que solo opere vertical u horizontalmente podemos usar repeat-x o repeat-y.
+
+- background-position: Sirve para manejar como queremos que se posicione la imagen de fondo, podemos pasarle dos valores, el primero indicando como queremos que se comporte en el eje X y el segundo, como queremos que se comporte en el eje Y.
+	En el eje X podemos pasarle los valores left o right
+	En el eje T podemos pasarle los valores top o bottom
+	
+
+- background-attachment: Sirve para definir si nuestra imagen se desplaza cuando el usuario hacer scroll, o si queda fija. Los dos valores que recibe son scroll o fixed
+
+- background-size: Nos permite definirla forma en la que va a estar abarcando la imagen de fondo en el elemento aplicado, puede cubrir en totalidad utilizando el valor cover, lo cual puede generar cortes en la imagen, o estar contenida en el tamanho del elemento utilizando la propiedad contain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

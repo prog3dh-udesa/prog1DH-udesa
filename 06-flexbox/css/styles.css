@@ -1,0 +1,32 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: stretch; */
+     /* align-items: flex-start; */
+     align-items: center;
+    /* align-items: flex-end; */
+    height: 1000px;
+}
+
+.contenedor article{
+    width: 250px;
+}
+
+.contenedor article img{
+    width: 100%;
+}
+
+.contenedor .hijo-1{
+    order:2;
+}
+
+.contenedor .hijo-2{
+    align-self: flex-end;
+    order:3
+}
+.contenedor .hijo-3{
+    align-self: flex-start;
+    order:1;
+}
